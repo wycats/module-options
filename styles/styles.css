@@ -1,0 +1,44 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+ul li {
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+}
+
+ul {
+    -webkit-user-select: none;
+    cursor: default;
+    /*margin-left: 20px;*/
+    padding-left: 0;
+    /*margin-left: 0px;
+    -webkit-padding-start: 20px;*/
+}
+
+ul ul {
+    margin-left: 20px;
+}
+
+ul.hide {
+    display: none;
+}
+
+i.fa {
+    color: #999;
+    padding-right: 5px;
+}
+
+i.fa.fa-folder-open.closed::before {
+    content: "\f07b"; /* f07c is open */
+}
+
+i.fa.fa-folder-open.closed ~ ul {
+    display: none;
+}
+
+li {
+    list-style-type: none;
+    margin: 0;
+    color: #666;
+}
